@@ -1,3 +1,5 @@
+package mon_entreprise;
+
 // import java.text.ParseException;
 // import java.text.SimpleDateFormat; 
 // import java.time.LocalDate;  // import the LocalDate class
@@ -135,6 +137,8 @@ public class Employe {
 
         System.out.println("NOTE: Pour une ancienneté de " + this.calculAnciennete() + " ans" + " on applique une augmentation de " + this.calculAugmentation() + " " + " euros/an");
         System.out.println(" ");
+
+        System.out.println("***************************************************");
 
     } 
 
